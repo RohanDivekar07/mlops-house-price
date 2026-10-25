@@ -41,3 +41,25 @@ Track latency, error rates, data drift and prediction quality in production. Too
 
 ### 4.9 Retraining and Feedback Loop
 When drift or performance degradation is detected, trigger retraining and return to stage 4.2. This makes the lifecycle a continuous loop.
+
+## 5. Tools Summary
+| Stage | Tool |
+|---|---|
+| Version control | Git, GitHub |
+| Data versioning | DVC |
+| Experiment tracking | MLflow |
+| CI/CD | GitHub Actions |
+| Containerization | Docker |
+| Serving | FastAPI |
+| Monitoring | Evidently, Grafana |
+
+## 6. Getting Started
+```bash
+git clone https://github.com/RohanDivekar07/mlops-house-price.git
+cd mlops-house-price
+pip install -r requirements.txt
+python src/train.py
+```
+
+## 7. Author
+Rohan Divekar | ADT24SOCBD213 | MLOPS / MLOPS
